@@ -8,7 +8,6 @@
 
 ![expert typescript](https://img.shields.io/static/v1?label=typescript&logo=typescript&message=expert)
 ![expert react](https://img.shields.io/static/v1?label=react&logo=react&message=expert)
-![expert drupal](https://img.shields.io/static/v1?label=drupal&logo=drupal&message=expert)
 ![intermediate graphql](https://img.shields.io/static/v1?label=graphql&logo=graphql&message=intermediate)
 ![intermediate php](https://img.shields.io/static/v1?label=php&logo=php&message=intermediate)
 ![beginner ruby](https://img.shields.io/static/v1?label=ruby&logo=ruby&message=beginner)
