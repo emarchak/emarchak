@@ -1,0 +1,39 @@
+@import 'typography';
+
+@function get-color($name, $variant: "normal") {
+  $color: map-get($theme-colors, $name);
+  @return map-get($color, $variant);
+}
+
+@function get-font($name) {
+  @return map-get($theme-fonts, $name);
+}
+@function get-spacing($name: "normal") {
+  @return map-get($theme-spacing, $name);
+}
+
+@function get-dropshadow($name: "normal") {
+  @return map-get($theme-dropshadow, $name);
+}
+
+@mixin max-width() {
+  margin: 0 auto;
+  max-width: 960px;
+} 
+
+
+@mixin media($point) {
+  @if $point == large {
+    @media only screen and (min-width: 481px) {
+      @content;
+    }
+  } @else if $point == medium {
+    @media only screen and (min-width: 720px) {
+      @content;
+    }
+  } @else if $point == small {
+    @media only screen and (max-width: 480px) {
+      @content;
+    }
+  }
+}

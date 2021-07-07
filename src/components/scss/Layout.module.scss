@@ -1,0 +1,24 @@
+@import 'theme';
+
+.layoutWrapper {
+  padding: 0 1.0875rem get-spacing();
+  min-height: calc(100vh - 2rem);
+  @include max-width();
+};
+
+
+.footer {
+  // padding-top: get-spacing(small);
+  color: get-color(background, secondary);
+  min-height: 2.3rem;
+  font-size: 0.8rem;
+}
+
+.content {
+  @include max-width();
+}
+
+.copyleft {
+  display: inline-block;
+  transform: scale(-1, 1);
+}

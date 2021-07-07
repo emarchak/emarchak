@@ -1,0 +1,41 @@
+$theme-colors: (
+  primary: (
+    normal: hsla(343, 82%, 76%, 1),
+  ),
+  secondary: (
+    normal: hsla(360, 100%, 100%, 1),
+    dark: hsla(343, 82%, 96%, 1),
+  ),
+  text: (
+    normal: hsla(0, 0%, 12%, 1),
+  ),
+  background: (
+    normal: hsla(343, 82%, 76%, 1),
+    secondary:hsla(360, 100%, 100%, 1)
+  )
+);
+
+// $mediaQueries:(
+//   sml: '@media (max-width: 720px)',
+//   medUp: '@media (min-width: 721px)',
+//   bigUp: '@media (min-width: 961px)',
+// );
+
+$maxWidth: 960;
+
+$theme-fonts: (
+  heading: '"Share Tech Mono", monospace',
+  body: '"Source Sans Pro", serif',
+);
+
+$theme-dropshadow: (
+  normal: 0 0 1rem 0.25rem hsla(343, 82%, 76%, 1),
+  dark: 0 0 1rem 0.25rem hsla(343, 41%, 76%, 1)
+);
+
+$theme-spacing: (
+  small: 0.725rem,
+  normal: 1.45rem,
+  large: 2.5rem
+);
+

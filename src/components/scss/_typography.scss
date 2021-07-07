@@ -1,0 +1,131 @@
+@import 'variables';
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font: 112.5%/1.45em "Source Sans Pro", serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+* {
+  box-sizing: inherit;
+}
+*:before {
+  box-sizing: inherit;
+}
+*:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Source Sans Pro", serif;
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  background: hsla(343, 82%, 76%, 1) url(../../images/bg.png) fixed;
+  color: hsla(0, 0%, 12%, 1);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  color: inherit;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2 {
+  font-family: "Share Tech Mono", monospace;
+  margin-bottom: 1.45rem;
+  letter-spacing: -.075rem;
+  line-height: 1.1;
+}
+
+h3, h4, h5 {
+  margin-top: 1.45rem;
+  margin-bottom: 0;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  border-bottom: none;
+ }
+
+h1 {
+  font-size: 2.25rem; 
+}
+h2 {
+  font-size: 1.62671rem;
+}
+h3 {
+  font-size: 1.38316rem; 
+}
+h4 {
+  font-size: 1rem; 
+}
+h5 {
+  font-size: 0.85028rem;
+}
+h6 {
+  font-size: 0.78405rem;
+}
+
+p {
+  line-height: 1.8;
+  word-wrap: break-word;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: hsla(0, 0%, 12%, 1);
+  border-bottom: thin hsla(0, 0%, 12%, 1) dashed;
+}
+
+a:hover {
+  border-bottom: none;
+}
+
+.pageContent {
+   margin: 0 auto;
+   max-width: 960px;
+   padding: 0 1.0875rem 1.45rem;
+}
+
+iframe.instagram-media {
+  margin-bottom: 0 !important;
+  display: inline-block !important;
+}

@@ -1,0 +1,54 @@
+@import '../../components/scss/theme';
+
+.icon {
+  color: get-color(primary);
+  background-color: get-color(secondary);
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+  border-radius: 2rem;
+  border-width: 0;
+  box-shadow: get-dropshadow();
+  margin-left: 1rem;
+  line-height: 2rem;
+  &:hover {
+    background-color: get-color(secondary, dark);
+  }
+  &:visited {
+    color: get-color(primary);
+  }
+}
+
+.title {
+  color: get-color(secondary);
+  font-size: 3.9rem;
+  line-height: 4rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  text-shadow: 0 0 1rem rgba(244, 142, 171, 1);
+  @include media(medium) {
+    font-size: 6rem;
+    line-height: 5rem;
+  }
+}
+
+.section {
+  position: relative;
+  text-align: center;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+
+.logo {
+  height: 10rem;
+  width: auto;
+  max-width: 100%;
+  @include media(medium) {
+    height: 15rem;
+  }
+}
+
+.narrow {
+  letter-spacing: -0.075em,
+}
