@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faStrava, faInstagram, faTwitter, faGithubAlt, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-import Logo from '../components/logo'
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Link from "../components/link"
+import Logo from '../components/Logo'
+import Layout from "../components/Layout"
+import SEO from "../components/Seo"
+import Link from "../components/Link"
 import { icon, title, section, narrow, logo } from './scss/index.module.scss'
 
 const IndexPage = () => (
