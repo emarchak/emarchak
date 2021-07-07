@@ -1,6 +1,6 @@
 import React from "react"
 import Footer from "./Footer"
-import { layoutWrapper } from './scss/layout.module.scss'
+import { layoutWrapper } from './scss/Layout.module.scss'
 
 
 type LayoutProps = React.PropsWithChildren<{

@@ -6,13 +6,13 @@ import { faStrava, faInstagram, faTwitter, faGithubAlt, faLinkedin } from '@fort
 
 import Logo from '../components/Logo'
 import Layout from "../components/Layout"
-import SEO from "../components/Seo"
+import Seo from "../components/Seo"
 import Link from "../components/Link"
 import { icon, title, section, narrow, logo } from './scss/index.module.scss'
 
 const IndexPage = () => (
   <Layout hideFooter>
-    <SEO title="Erin Marchak" />
+    <Seo title="Erin Marchak" />
     <section className={section}>
       <Logo className={logo} />
 
